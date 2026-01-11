@@ -8,3 +8,5 @@ do
 #    sleep 5
 
 done
+
+cat /proc/cpuinfo > cpuinfo.txt
