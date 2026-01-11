@@ -10,3 +10,4 @@ do
 done
 
 cat /proc/cpuinfo > cpuinfo.txt
+grep "^NAME" /etc/os-release > name_os.txt
