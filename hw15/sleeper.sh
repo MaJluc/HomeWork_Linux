@@ -11,3 +11,4 @@ done
 
 cat /proc/cpuinfo > cpuinfo.txt
 grep "^NAME" /etc/os-release > name_os.txt
+grep '^NAME=' /etc/os-release | awk -F= '{gsub(/"/,"",$2); print $2}' >> name_os.txt
