@@ -5,6 +5,6 @@ do
 
     date +"%H:%M:%S"
     ps -e | wc -l
-    sleep 5
+#    sleep 5
 
 done
